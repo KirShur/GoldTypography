@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+
+}
+a{
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit:contain;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+*,html::before,html::after{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+         -o-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/*[Typographia]*/
+  .fs20{
+    font-size: min(20px,5vw);
+  }
+/*[Typographia]*/
+
+
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content {
+  -webkit-box-flex:1;
+      -ms-flex:1 1 auto;
+          flex:1 1 auto;
+}
+
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.text_section{
+padding: 30px 0;	
+}
+
+.textrow{
+	display:flex;
+}
+
+.text_content {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+

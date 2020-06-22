@@ -1,0 +1,48 @@
+/*Copyright  2020  Shur Kirill   -==MIT==-*/
+
+.gtp20{
+  font-size:min(20px,2.7vw);	
+}
+.gtp30{
+  font-size:min(30px,2.7vw);	
+}
+
+.gtp40{
+  font-size:min(40px,2.7vw);	
+}
+
+.gtp50{
+  font-size:min(50px,2.7vw);	
+}
+.gtp60{
+  font-size:min(60px,2.7vw);	
+}
+
+.gtp70{
+  font-size:min(70px,2.7vw);	
+}
+
+.gtp80{
+  font-size:min(80px,2.7vw);	
+}
+
+.gtp90{
+  font-size:min(90px,2.7vw);	
+}
+
+.gtw400{
+ font-weight:400;
+}
+
+.gtw600{
+ font-weight:600;
+}
+
+.gtw700{
+ font-weight:700;
+}
+
+
+
+
+
